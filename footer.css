@@ -1,0 +1,13 @@
+footer{
+	color:#FFFFFF;
+	background-color:#3333CC;
+	text-align:Left;
+	font-size:1rem;
+}
+.container-footer{
+	display:flex;
+	padding:1rem;
+	gap:2rem;
+	flex-direction: row;
+}
+

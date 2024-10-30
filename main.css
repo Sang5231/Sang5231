@@ -1,0 +1,46 @@
+.main1, .main2, .main3 {
+    color: black;
+    text-align: left;
+}
+
+/* Main 1 */
+.main1 {
+    display: flex;
+    background-color: #FFFFCC;
+    margin: 0;
+    padding: 2rem;
+    gap: 20rem;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+}
+
+/* Left */
+.main1-left {
+    margin-top: 5rem;
+    display: block;
+}
+
+.opacity {
+    opacity: 0.5;
+}
+
+/* Right */
+.main1-right {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.main2, .main3 {
+    padding: 2rem;
+    background-color: #F0F0F0;
+}
+
+
+@media (max-width: 720px) {
+    .main1 {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
